@@ -1,0 +1,12 @@
+/* Third-Party */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Globals */
+@import "globals/vars.scss";
+@import "globals/base.scss";
+
+/* Layout */
+@import "layout/header.scss";
+@import "layout/footer.scss";
