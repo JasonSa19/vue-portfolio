@@ -4,8 +4,7 @@ import Intro from "./components/Intro.vue";
 
 <template>
   <div class="text-center selection:bg-green-100">
-    <img class="mx-auto mb-8 mt-12" alt="Vue logo" src="./assets/logo.png" />
-    <Intro msg="Vite + Vue 3 + Tailwindcss v3" />
+    <Intro />
   </div>
 </template>
 
