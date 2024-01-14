@@ -3,9 +3,7 @@ import Intro from "./components/Intro.vue";
 </script>
 
 <template>
-  <div class="text-center selection:bg-green-100">
-    <Intro />
-  </div>
+  <Intro />
 </template>
 
 <style lang="scss">
