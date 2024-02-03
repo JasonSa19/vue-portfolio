@@ -19,6 +19,10 @@ module.exports = {
       colors: {
         blue: "#0761E9",
       },
+      fontFamily: {
+        headline: ['"Raleway"', "serif"],
+        standard: ['"Quicksand"', "sans-serif"],
+      },
     },
   },
   plugins: [
