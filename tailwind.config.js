@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       colors: {
         blue: "#0761E9",
+        grey: "rgb(39, 40, 48)",
       },
       fontFamily: {
         headline: ['"Raleway"', "serif"],
