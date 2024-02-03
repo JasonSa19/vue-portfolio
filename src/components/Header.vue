@@ -9,6 +9,11 @@ const gitHub = ref("https://github.com/JasonSa19/");
 const instaGram = ref("https://www.instagram.com/jason_sa_/");
 
 const resume = ref("#");
+const isHeaderOpen = ref(false);
+
+const toggleHeader = () => {
+  isHeaderOpen.value = !isHeaderOpen.value;
+};
 </script>
 
 <template>
@@ -28,6 +33,8 @@ const resume = ref("#");
       buttonText="Lebenslauf"
     />
     <button
+      @click="toggleHeader"
+      :class="{ open: isHeaderOpen }"
       class="menu-toggle align-end group relative ml-20 flex h-6 w-11 flex-col justify-between transition-all"
     >
       <span
