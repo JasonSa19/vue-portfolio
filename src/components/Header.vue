@@ -28,14 +28,16 @@ const resume = ref("#");
       buttonText="Lebenslauf"
     />
     <button
-      class="menu-toggle align-end group ml-20 flex h-7 w-11 flex-col justify-between transition-all"
+      class="menu-toggle align-end group relative ml-20 flex h-6 w-11 flex-col justify-between transition-all"
     >
       <span
-        class="h-[2px] w-3/4 bg-white transition-all group-hover:w-full"
+        class="absolute right-0 top-0 inline-block h-[2px] w-3/4 bg-white transition-all group-hover:w-full"
       ></span>
-      <span class="h-[2px] w-full bg-white"></span>
       <span
-        class="h-[2px] w-2/4 bg-white transition-all group-hover:w-full"
+        class="absolute right-0 top-2/4 inline-block h-[2px] w-full -translate-y-2/4 bg-white"
+      ></span>
+      <span
+        class="absolute bottom-0 right-0 inline-block h-[2px] w-2/4 bg-white transition-all group-hover:w-full"
       ></span>
     </button>
   </header>
