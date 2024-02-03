@@ -4,13 +4,6 @@ module.exports = {
     container: false,
   },
   theme: {
-    screens: {
-      "2xl": { max: "1680px" },
-      xl: { max: "1440px" },
-      lg: { max: "992px" },
-      md: { max: "768px" },
-      sm: { max: "480px" },
-    },
     borderRadius: {
       "3xl": "40px",
       full: "999px",

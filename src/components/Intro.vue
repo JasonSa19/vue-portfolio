@@ -7,12 +7,14 @@ import standardbtn from "./standardbtn.vue";
 
 <template>
   <section class="anim container mt-44">
-    <div class="content-inner flex flex-row items-center justify-between">
+    <div
+      class="content-inner flex flex-col-reverse items-center justify-between md:flex-row"
+    >
       <div class="text-content basis-3/5">
         <h1 class="font-headline text-xl leading-[111%]">
           {{ mainHeadline }}
         </h1>
-        <p class="mt-6 w-6/12">{{ mainText }}</p>
+        <p class="mt-6 w-8/12">{{ mainText }}</p>
         <standardbtn class="mt-12" buttonText="Lass uns starten" link="#info" />
       </div>
       <div class="image-content basis-2/5">
