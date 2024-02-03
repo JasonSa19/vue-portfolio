@@ -53,6 +53,6 @@ const toggleHeader = () => {
         ></span>
       </button>
     </div>
-    <nav />
+    <nav :class="{ open: isHeaderOpen }" />
   </header>
 </template>
