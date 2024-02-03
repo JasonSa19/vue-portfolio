@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import vectorLink from "./vectorlink.vue";
 import customBtn from "./custombtn.vue";
+import nav from "./nav.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
 const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");
@@ -17,8 +18,11 @@ const toggleHeader = () => {
 </script>
 
 <template>
-  <header class="anim container mx-auto mt-11 font-light">
-    <div class="header-inner flex items-center" :class="{ open: isHeaderOpen }">
+  <header class="anim mt-11 font-light">
+    <div
+      class="header-inner container mx-auto flex items-center"
+      :class="{ open: isHeaderOpen }"
+    >
       <vectorLink
         class="flex flex-1 justify-start"
         :link="'mailto:' + mailAddress"
@@ -49,5 +53,6 @@ const toggleHeader = () => {
         ></span>
       </button>
     </div>
+    <nav />
   </header>
 </template>
