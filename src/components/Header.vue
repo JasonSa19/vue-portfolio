@@ -27,5 +27,16 @@ const resume = ref("#");
       class="flex flex-1 justify-end"
       buttonText="Lebenslauf"
     />
+    <button
+      class="menu-toggle align-end group ml-20 flex h-7 w-11 flex-col justify-between transition-all"
+    >
+      <span
+        class="h-[2px] w-3/4 bg-white transition-all group-hover:w-full"
+      ></span>
+      <span class="h-[2px] w-full bg-white"></span>
+      <span
+        class="h-[2px] w-2/4 bg-white transition-all group-hover:w-full"
+      ></span>
+    </button>
   </header>
 </template>
