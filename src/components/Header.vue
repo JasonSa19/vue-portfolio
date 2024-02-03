@@ -28,13 +28,13 @@ const toggleHeader = () => {
         :link="'mailto:' + mailAddress"
         :buttonText="mailAddress"
       />
-      <span class="flex flex-1 justify-center gap-1"
+      <span class="hidden flex-1 justify-center gap-1 lg:flex"
         ><a :href="linkedIn">LinkedIn</a> / <a :href="gitHub">Github</a> /
         <a :href="instaGram">Instagram</a>
       </span>
       <customBtn
         :link="resume"
-        class="flex flex-1 justify-end"
+        class="hidden flex-1 justify-end md:flex"
         buttonText="Lebenslauf"
       />
       <button
