@@ -27,10 +27,10 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         ".container": {
-          maxWidth: "1620px",
+          maxWidth: "90%",
           margin: "0 auto",
           "@screen 2xl": {
-            maxWidth: "92%",
+            maxWidth: "1620px",
           },
         },
       });

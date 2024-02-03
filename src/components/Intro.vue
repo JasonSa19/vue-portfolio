@@ -8,17 +8,17 @@ import standardbtn from "./standardbtn.vue";
 <template>
   <section class="anim container mt-44">
     <div
-      class="content-inner flex flex-col-reverse items-center justify-between md:flex-row"
+      class="content-inner flex flex-col items-center justify-between lg:flex-row"
     >
       <div class="text-content basis-3/5">
-        <h1 class="font-headline text-xl leading-[111%]">
+        <h1 class="font-headline text-lg leading-[111%] xl:text-xl">
           {{ mainHeadline }}
         </h1>
         <p class="mt-6 w-8/12">{{ mainText }}</p>
         <standardbtn class="mt-12" buttonText="Lass uns starten" link="#info" />
       </div>
-      <div class="image-content basis-2/5">
-        <div class="image-container relative ml-auto h-96 w-96">
+      <div class="image-content ml-auto basis-2/5">
+        <div class="image-container relative ml-auto h-72 w-72 xl:h-96 xl:w-96">
           <img
             class="absolute h-full w-full rounded-full object-cover"
             src="./../assets/img/portrait_Jason_Sauerwald.jpg"
