@@ -15,7 +15,7 @@ const props = defineProps({
     >
       {{ buttonText }}
       <arrow
-        class="h-7 w-6 fill-white transition-all group-hover:fill-blue"
+        class="h-7 w-6 fill-white transition-all group-hover:ml-1 group-hover:fill-blue"
       ></arrow>
     </a>
   </div>

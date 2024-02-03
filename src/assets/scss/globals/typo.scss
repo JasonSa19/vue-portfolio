@@ -1,9 +1,11 @@
 h1,
 h2 {
   font-family: $fontHeadline;
+  font-weight: 500;
 }
 
 p {
   font-family: $fontDefault;
   font-size: 1.125rem;
+  font-weight: 300;
 }
