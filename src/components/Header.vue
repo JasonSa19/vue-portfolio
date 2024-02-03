@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import vectorLink from "./vectorlink.vue";
 import customBtn from "./custombtn.vue";
-import nav from "./nav.vue";
+import Nav from "./nav.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
 const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");
@@ -53,6 +53,6 @@ const toggleHeader = () => {
         ></span>
       </button>
     </div>
-    <nav :class="{ open: isHeaderOpen }" />
+    <Nav :class="{ open: isHeaderOpen }" />
   </header>
 </template>
