@@ -23,6 +23,11 @@ module.exports = {
         headline: ['"Raleway"', "serif"],
         standard: ['"Quicksand"', "sans-serif"],
       },
+      fontSize: {
+        base: "1.125rem",
+        lg: "1.5rem",
+        xl: "6.75rem",
+      },
     },
   },
   plugins: [

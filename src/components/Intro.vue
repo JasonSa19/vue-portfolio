@@ -9,7 +9,7 @@ import standardbtn from "./standardbtn.vue";
   <section class="anim container mt-44">
     <div class="content-inner flex flex-row items-center justify-between">
       <div class="text-content">
-        <h1>{{ mainHeadline }}</h1>
+        <h1 class="font-headline text-xl">{{ mainHeadline }}</h1>
         <p>{{ mainText }}</p>
         <standardbtn buttonText="Lass uns starten" link="#info" />
       </div>
