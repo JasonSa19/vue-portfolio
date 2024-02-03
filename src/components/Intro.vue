@@ -12,7 +12,7 @@ const resume = ref("#");
 </script>
 
 <template>
-  <header class="container mx-auto mt-11 flex items-center font-light">
+  <header class="anim container mx-auto mt-11 flex items-center font-light">
     <vectorLink
       class="flex flex-1 justify-start"
       :link="'mailto:' + mailAddress"
