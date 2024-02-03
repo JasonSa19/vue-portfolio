@@ -29,5 +29,3 @@ const resume = ref("#");
     />
   </header>
 </template>
-
-<style scoped></style>
