@@ -1,5 +1,9 @@
-<template>
-  <div></div>
-</template>
+<script setup>
+const mainHeadline = "Webdesign und Entwicklung";
+</script>
 
-<script setup></script>
+<template>
+  <section class="anim container">
+    <h1>{{ mainHeadline }}</h1>
+  </section>
+</template>
