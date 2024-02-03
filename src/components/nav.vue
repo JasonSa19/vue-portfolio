@@ -4,10 +4,10 @@
   <nav>
     <div class="nav-inner">
       <ul>
-        <li><a>Start</a></li>
-        <li><a>Information</a></li>
-        <li><a>Merkmale</a></li>
-        <li><a>Skills</a></li>
+        <li><a link="/">Start</a></li>
+        <li><a link="#info">Information</a></li>
+        <li><a link="#merkmale">Merkmale</a></li>
+        <li><a link="#skills">Skills</a></li>
       </ul>
     </div>
   </nav>
