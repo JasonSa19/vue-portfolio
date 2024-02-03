@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
   <div class="btn-wrap">
     <a
-      class="icon-btn group inline-flex cursor-pointer items-center gap-2 rounded-3xl bg-blue px-7 py-3 text-lg text-white transition-all hover:bg-white hover:text-blue"
+      class="icon-btn group inline-flex cursor-pointer items-center gap-4 rounded-3xl bg-blue px-7 py-3 text-lg text-white transition-all hover:bg-white hover:text-blue"
       :href="link"
     >
       {{ buttonText }}

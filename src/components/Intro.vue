@@ -7,8 +7,15 @@ import standardbtn from "./standardbtn.vue";
 
 <template>
   <section class="anim container">
-    <h1>{{ mainHeadline }}</h1>
-    <p>{{ mainText }}</p>
-    <standardbtn buttonText="Lass und starten" link="#info" />
+    <div class="content-inner flex flex-row">
+      <div class="text-content">
+        <h1>{{ mainHeadline }}</h1>
+        <p>{{ mainText }}</p>
+        <standardbtn buttonText="Lass uns starten" link="#info" />
+      </div>
+      <div class="image-content">
+        <img src="./../assets/img/portrait_Jason_Sauerwald.jpg" />
+      </div>
+    </div>
   </section>
 </template>
