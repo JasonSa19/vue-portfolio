@@ -1,9 +1,9 @@
 <script setup>
-import Intro from "./components/Intro.vue";
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <Intro />
+  <Header />
 </template>
 
 <style lang="scss">

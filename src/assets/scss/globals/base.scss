@@ -16,6 +16,7 @@ body {
     opacity: 1;
     transform: translateZ(0);
   }
+
   @media (prefers-reduced-motion) {
     .anim {
       transform: none;
