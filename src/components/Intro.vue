@@ -29,4 +29,3 @@ const mainText =
     </div>
   </section>
 </template>
-./modules/standardbtn.vue
