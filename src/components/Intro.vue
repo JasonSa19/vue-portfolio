@@ -7,21 +7,23 @@ const mainText =
 </script>
 
 <template>
-  <section class="anim container mt-44">
+  <section class="container anim mt-44">
     <div
-      class="content-inner flex flex-col items-center justify-between lg:flex-row"
+      class="flex flex-col-reverse items-center justify-between gap-y-24 content-inner lg:gap-y-0 lg:flex-row"
     >
       <div class="text-content basis-3/5">
-        <h1 class="font-headline text-lg leading-[111%] xl:text-xl">
+        <h1
+          class="font-headline text-xl leading-[111%] lg:text-2xl 2xl:text-3xl"
+        >
           {{ mainHeadline }}
         </h1>
-        <p class="mt-6 w-8/12">{{ mainText }}</p>
+        <p class="w-8/12 mt-6">{{ mainText }}</p>
         <standardbtn class="mt-12" buttonText="Lass uns starten" link="#info" />
       </div>
-      <div class="image-content ml-auto basis-2/5">
-        <div class="image-container relative ml-auto h-72 w-72 xl:h-96 xl:w-96">
+      <div class="ml-auto image-content basis-2/5">
+        <div class="relative ml-auto image-container h-72 w-72 xl:h-96 xl:w-96">
           <img
-            class="absolute h-full w-full rounded-full object-cover"
+            class="absolute object-cover w-full h-full rounded-full"
             src="./../assets/img/portrait_Jason_Sauerwald.jpg"
           />
         </div>
