@@ -1,5 +1,5 @@
 <script setup>
-import mail from "./svg/mail.vue";
+import mail from "../svg/mail.vue";
 
 const props = defineProps({
   buttonText: { type: String },

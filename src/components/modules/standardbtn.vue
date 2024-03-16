@@ -1,5 +1,5 @@
 <script setup>
-import arrow from "./svg/arrow.vue";
+import arrow from "../svg/arrow.vue";
 
 const props = defineProps({
   buttonText: { type: String },

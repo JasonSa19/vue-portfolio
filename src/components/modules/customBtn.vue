@@ -1,5 +1,5 @@
 <script setup>
-import pdfFile from "./svg/pdfFile.vue";
+import pdfFile from "../svg/pdfFile.vue";
 
 const props = defineProps({
   buttonText: { type: String },

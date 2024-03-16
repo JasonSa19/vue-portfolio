@@ -1,8 +1,9 @@
 <script setup>
+import standardbtn from "./modules/standardbtn.vue";
+
 const mainHeadline = "Webdesign und Entwicklung";
 const mainText =
   "Willkommen auf meiner Portfolio-Website! Hier präsentiere ich meine Arbeit als Front-End Developer und meine Fähigkeiten in der Erstellung von ansprechenden Benutzeroberflächen.";
-import standardbtn from "./standardbtn.vue";
 </script>
 
 <template>
@@ -28,3 +29,4 @@ import standardbtn from "./standardbtn.vue";
     </div>
   </section>
 </template>
+./modules/standardbtn.vue

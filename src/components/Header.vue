@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
-import vectorLink from "./vectorlink.vue";
-import customBtn from "./custombtn.vue";
+import vectorLink from "./modules/vectorlink.vue";
+import customBtn from "./modules/custombtn.vue";
 import Nav from "./nav.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
@@ -56,3 +56,4 @@ const toggleHeader = () => {
     <Nav :class="{ open: isHeaderOpen }" />
   </header>
 </template>
+./modules/vectorLink.vue./modules/customBtn.vue
