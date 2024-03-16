@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
-import vectorLink from "./modules/vectorlink.vue";
-import customBtn from "./modules/custombtn.vue";
+import vectorLink from "./modules/vectorLink.vue";
+import customBtn from "./modules/customBtn.vue";
 import Nav from "./nav.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
