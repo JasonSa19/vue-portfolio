@@ -18,29 +18,29 @@ const toggleHeader = () => {
 </script>
 
 <template>
-  <header class="anim mt-11 font-light">
+  <header class="font-light anim mt-11">
     <div
-      class="header-inner container mx-auto flex items-center"
+      class="container flex items-center mx-auto header-inner"
       :class="{ open: isHeaderOpen }"
     >
       <vectorLink
-        class="flex flex-1 justify-start"
+        class="flex justify-start flex-1"
         :link="'mailto:' + mailAddress"
         :buttonText="mailAddress"
       />
-      <span class="hidden flex-1 justify-center gap-1 lg:flex"
+      <span class="justify-center flex-1 hidden gap-1 lg:flex"
         ><a :href="linkedIn">LinkedIn</a> / <a :href="gitHub">Github</a> /
         <a :href="instaGram">Instagram</a>
       </span>
       <customBtn
         :link="resume"
-        class="hidden flex-1 justify-end md:flex"
+        class="justify-end flex-1 hidden md:flex"
         buttonText="Lebenslauf"
       />
       <button
         @click="toggleHeader"
         :class="{ open: isHeaderOpen }"
-        class="menu-toggle align-end group relative ml-20 flex h-6 w-11 flex-col justify-between transition-all"
+        class="relative z-20 flex flex-col justify-between h-6 ml-20 transition-all menu-toggle align-end group w-11"
       >
         <span
           class="absolute right-0 top-0 inline-block h-[2px] w-3/4 bg-white transition-all group-hover:w-full"
