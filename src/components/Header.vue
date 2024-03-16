@@ -56,4 +56,3 @@ const toggleHeader = () => {
     <Nav :class="{ open: isHeaderOpen }" />
   </header>
 </template>
-./modules/vectorLink.vue./modules/customBtn.vue
