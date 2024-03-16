@@ -119,3 +119,6 @@ dist
 yarn.lock
 
 node_modules
+
+.vscode
+.prettierrc.json
