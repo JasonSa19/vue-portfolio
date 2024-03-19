@@ -29,8 +29,17 @@ const toggleHeader = () => {
         :buttonText="mailAddress"
       />
       <span class="justify-center flex-1 hidden gap-1 lg:flex"
-        ><a :href="linkedIn">LinkedIn</a> / <a :href="gitHub">Github</a> /
-        <a :href="instaGram">Instagram</a>
+        ><a class="transition-all duration-300 hover:text-blue" :href="linkedIn"
+          >LinkedIn</a
+        >
+        /
+        <a class="transition-all duration-300 hover:text-blue" :href="gitHub"
+          >Github</a
+        >
+        /
+        <a class="transition-all duration-300 hover:text-blue" :href="instaGram"
+          >Instagram</a
+        >
       </span>
       <customBtn
         :link="resume"
