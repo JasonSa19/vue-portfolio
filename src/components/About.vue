@@ -4,5 +4,7 @@ import subLine from "./modules/subLine.vue";
 </script>
 
 <template>
-  <subLine />
+  <section class="mt-32 xl:mt-96">
+    <subLine sublineText="Information" />
+  </section>
 </template>

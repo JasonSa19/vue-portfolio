@@ -4,6 +4,9 @@ module.exports = {
     container: false,
   },
   theme: {
+    boxShadow: {
+      custom: "0px 0px 50px 16px rgba(0,0,0,0.14)",
+    },
     borderRadius: {
       "3xl": "40px",
       full: "999px",
@@ -11,7 +14,8 @@ module.exports = {
     extend: {
       colors: {
         blue: "#0761E9",
-        grey: "rgb(39, 40, 48)",
+        grey: "#272830",
+        lightgrey: "#707070",
       },
       fontFamily: {
         headline: ['"Raleway"', "serif"],
