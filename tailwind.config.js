@@ -9,6 +9,9 @@ module.exports = {
     },
 
     extend: {
+      lineHeight: {
+        headline: "110%",
+      },
       borderRadius: {
         "3xl": "40px",
         full: "999px",
@@ -24,10 +27,11 @@ module.exports = {
       },
       fontSize: {
         base: "1.125rem",
+        sm: "1.25rem",
         md: "1.5rem",
         lg: "1.75rem",
         xl: "2rem",
-        "2xl": "4rem",
+        "2xl": "3.75rem",
         "3xl": "6.75rem",
       },
     },

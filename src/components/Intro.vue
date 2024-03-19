@@ -7,7 +7,7 @@ const mainText =
 </script>
 
 <template>
-  <section class="container anim mt-44">
+  <section class="container mb-32 anim mt-44 xl:mb-96">
     <div
       class="flex flex-col-reverse items-center justify-between gap-y-24 content-inner lg:gap-y-0 lg:flex-row"
     >
