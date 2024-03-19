@@ -5,5 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div>{{ sublineText }}</div>
+  <div class="inline-block w-full rounded-3xl bg-lightgrey">
+    <span>{{ sublineText }}</span>
+  </div>
 </template>

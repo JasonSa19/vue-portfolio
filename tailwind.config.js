@@ -7,11 +7,12 @@ module.exports = {
     boxShadow: {
       custom: "0px 0px 50px 16px rgba(0,0,0,0.14)",
     },
-    borderRadius: {
-      "3xl": "40px",
-      full: "999px",
-    },
+
     extend: {
+      borderRadius: {
+        "3xl": "40px",
+        full: "999px",
+      },
       colors: {
         blue: "#0761E9",
         grey: "#272830",
