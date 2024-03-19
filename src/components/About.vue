@@ -18,6 +18,18 @@ const aboutText =
         </div>
         <div class="basis-9/12">
           <p>{{ aboutText }}</p>
+          <div class="flex justify-between mt-14">
+            <vectorLink class="basis-1/4" buttonText="22 Jahre alt" />
+            <vectorLink class="basis-1/4" buttonText="Brilon, NRW" />
+            <vectorLink
+              class="basis-1/4"
+              buttonText="Allg. Hochschulreife (2020)"
+            />
+            <vectorLink
+              class="basis-1/4"
+              buttonText="Abgeschlossene Ausbildung zum Mediengestalter Digital"
+            />
+          </div>
         </div>
       </div>
     </div>
