@@ -14,6 +14,9 @@ dependencies:
   vue:
     specifier: ^3.2.25
     version: 3.4.21
+  vue-meta:
+    specifier: 3.0.0-alpha.2
+    version: 3.0.0-alpha.2(@vue/server-renderer@3.4.21)(vue@3.4.21)
 
 devDependencies:
   '@vitejs/plugin-vue':
@@ -1153,6 +1156,16 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vue-meta@3.0.0-alpha.2(@vue/server-renderer@3.4.21)(vue@3.4.21):
+    resolution: {integrity: sha512-mLDB/vGjn2Q58IFKs5Dtp/STWZ0sEbkdM67u+YXuMreK5EjNHnqhcylQb+xn50pwxCdQD98nGgJlEXkh16Hqug==}
+    peerDependencies:
+      '@vue/server-renderer': ^3.0.6
+      vue: ^3.0.0
+    dependencies:
+      '@vue/server-renderer': 3.4.21(vue@3.4.21)
+      vue: 3.4.21
+    dev: false
 
   /vue@3.4.21:
     resolution: {integrity: sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==}
