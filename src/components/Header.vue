@@ -18,7 +18,7 @@ const toggleHeader = () => {
 </script>
 
 <template>
-  <header class="font-light anim mt-11">
+  <header class="relative z-10 font-light anim mt-11">
     <div
       class="container flex items-center mx-auto header-inner"
       :class="{ open: isHeaderOpen }"
@@ -29,15 +29,24 @@ const toggleHeader = () => {
         :buttonText="mailAddress"
       />
       <span class="justify-center flex-1 hidden gap-1 lg:flex"
-        ><a class="transition-all duration-300 hover:text-blue" :href="linkedIn"
+        ><a
+          class="transition-all duration-300 hover:text-blue"
+          target="_blank"
+          :href="linkedIn"
           >LinkedIn</a
         >
         /
-        <a class="transition-all duration-300 hover:text-blue" :href="gitHub"
+        <a
+          class="transition-all duration-300 hover:text-blue"
+          target="_blank"
+          :href="gitHub"
           >Github</a
         >
         /
-        <a class="transition-all duration-300 hover:text-blue" :href="instaGram"
+        <a
+          class="transition-all duration-300 hover:text-blue"
+          target="_blank"
+          :href="instaGram"
           >Instagram</a
         >
       </span>

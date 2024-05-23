@@ -10,7 +10,7 @@ const aboutText =
   <section class="mb-32 xl:mb-96 anim">
     <subLine sublineText="Information" />
     <div class="container">
-      <div class="flex gap-14">
+      <div class="flex flex-col gap-14 md:flex-row">
         <div class="basis-3/12">
           <h2 class="text-2xl font-headline leading-headline">
             Über meinen<br />Werdegang
@@ -18,15 +18,21 @@ const aboutText =
         </div>
         <div class="basis-9/12">
           <p>{{ aboutText }}</p>
-          <div class="flex justify-between mt-14">
-            <vectorLink class="basis-1/4" buttonText="22 Jahre alt" />
-            <vectorLink class="basis-1/4" buttonText="Brilon, NRW" />
+          <div class="flex flex-wrap justify-between gap-8 mt-14 2xl:gap-0">
             <vectorLink
-              class="basis-1/4"
+              class="basis-full 2xl:basis-1/4"
+              buttonText="22 Jahre alt"
+            />
+            <vectorLink
+              class="basis-full 2xl:basis-1/4"
+              buttonText="Brilon, NRW"
+            />
+            <vectorLink
+              class="basis-full 2xl:basis-1/4"
               buttonText="Allg. Hochschulreife (2020)"
             />
             <vectorLink
-              class="basis-1/4"
+              class="basis-full 2xl:basis-1/4"
               buttonText="Abgeschlossene Ausbildung zum Mediengestalter Digital"
             />
           </div>
