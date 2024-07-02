@@ -1,9 +1,32 @@
 <script setup>
-import vectorLink from "./modules/vectorLink.vue";
 import subLine from "./modules/subLine.vue";
+import birthday from "./svg/birthday.vue";
+import location from "./svg/location.vue";
+import education from "./svg/education.vue";
+import job from "./svg/education.vue";
 
 const aboutText =
   "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. nvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+
+import { ref, computed } from "vue";
+
+const birthDate = ref(new Date(2001, 11, 19)); // Month is 0-indexed, so December is 11
+
+const age = computed(() => {
+  const today = new Date();
+  const birthDateValue = birthDate.value;
+  let age = today.getFullYear() - birthDateValue.getFullYear();
+  const monthDifference = today.getMonth() - birthDateValue.getMonth();
+
+  // If the birth date has not occurred yet this year, subtract one year from the age
+  if (
+    monthDifference < 0 ||
+    (monthDifference === 0 && today.getDate() < birthDateValue.getDate())
+  ) {
+    age--;
+    return age;
+  }
+});
 </script>
 
 <template>
@@ -18,23 +41,53 @@ const aboutText =
         </div>
         <div class="basis-9/12">
           <p>{{ aboutText }}</p>
-          <div class="flex flex-wrap justify-between gap-8 mt-14 2xl:gap-0">
-            <vectorLink
-              class="basis-full 2xl:basis-1/4"
-              buttonText="22 Jahre alt"
-            />
-            <vectorLink
-              class="basis-full 2xl:basis-1/4"
-              buttonText="Brilon, NRW"
-            />
-            <vectorLink
-              class="basis-full 2xl:basis-1/4"
-              buttonText="Allg. Hochschulreife (2020)"
-            />
-            <vectorLink
-              class="basis-full 2xl:basis-1/4"
-              buttonText="Abgeschlossene Ausbildung zum Mediengestalter Digital"
-            />
+          <div class="flex flex-wrap justify-start gap-14 mt-14">
+            <div class="vector-link">
+              <div class="flex items-center gap-3 group">
+                <div
+                  class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
+                >
+                  <birthday class="w-full h-full fill-white"></birthday>
+                </div>
+                <p class="font-semibold">{{ age }} Jahre alt</p>
+              </div>
+            </div>
+
+            <div class="vector-link">
+              <div class="flex items-center gap-3 group">
+                <div
+                  class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
+                >
+                  <location class="w-full h-full fill-white"></location>
+                </div>
+                <p class="font-semibold">Brilon, NRW</p>
+              </div>
+            </div>
+
+            <div class="vector-link">
+              <div class="flex items-center gap-3 group">
+                <div
+                  class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
+                >
+                  <education class="w-full h-full fill-white"></education>
+                </div>
+                <p class="font-semibold">Allg. Hochschulreife (2020)</p>
+              </div>
+            </div>
+
+            <div class="vector-link">
+              <div class="flex items-center gap-3 group">
+                <div
+                  class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
+                >
+                  <job class="w-full h-full fill-white"></job>
+                </div>
+                <p class="font-semibold">
+                  Abgeschlossene Lehre <br />
+                  zum Mediengestalter (digital)
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
