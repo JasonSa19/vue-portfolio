@@ -3,7 +3,7 @@ import subLine from "./modules/subLine.vue";
 import birthday from "./svg/birthday.vue";
 import location from "./svg/location.vue";
 import education from "./svg/education.vue";
-import job from "./svg/education.vue";
+import job from "./svg/job.vue";
 
 const aboutText =
   "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. nvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
@@ -47,7 +47,7 @@ const age = computed(() => {
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
                 >
-                  <birthday class="w-full h-full fill-white"></birthday>
+                  <birthday class="fill-white"></birthday>
                 </div>
                 <p class="font-semibold">{{ age }} Jahre alt</p>
               </div>
@@ -58,7 +58,7 @@ const age = computed(() => {
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
                 >
-                  <location class="w-full h-full fill-white"></location>
+                  <location class="fill-white"></location>
                 </div>
                 <p class="font-semibold">Brilon, NRW</p>
               </div>
@@ -69,7 +69,7 @@ const age = computed(() => {
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
                 >
-                  <education class="w-full h-full fill-white"></education>
+                  <education class="fill-white"></education>
                 </div>
                 <p class="font-semibold">Allg. Hochschulreife (2020)</p>
               </div>
@@ -80,7 +80,7 @@ const age = computed(() => {
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full svg-holder bg-blue"
                 >
-                  <job class="w-full h-full fill-white"></job>
+                  <job class="fill-white"></job>
                 </div>
                 <p class="font-semibold">
                   Abgeschlossene Lehre <br />
