@@ -10,7 +10,7 @@ const aboutText =
 
 import { ref, computed } from "vue";
 
-const birthDate = ref(new Date(2001, 11, 19)); // Month is 0-indexed, so December is 11
+const birthDate = ref(new Date(2001, 11, 19));
 
 const age = computed(() => {
   const today = new Date();
@@ -18,7 +18,6 @@ const age = computed(() => {
   let age = today.getFullYear() - birthDateValue.getFullYear();
   const monthDifference = today.getMonth() - birthDateValue.getMonth();
 
-  // If the birth date has not occurred yet this year, subtract one year from the age
   if (
     monthDifference < 0 ||
     (monthDifference === 0 && today.getDate() < birthDateValue.getDate())
