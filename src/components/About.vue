@@ -33,9 +33,9 @@ const age = computed(() => {
   <section class="mb-32 xl:mb-96 anim">
     <subLine sublineText="Information" />
     <div class="container">
-      <div class="flex flex-col gap-14 md:flex-row">
+      <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
         <div class="basis-3/12">
-          <h2 class="text-2xl font-headline leading-headline">
+          <h2 class="text-lg xl:text-2xl font-headline leading-headline">
             Über meinen<br />Werdegang
           </h2>
         </div>
