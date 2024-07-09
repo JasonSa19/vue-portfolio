@@ -40,7 +40,9 @@ const age = computed(() => {
         </div>
         <div class="basis-9/12">
           <p>{{ aboutText }}</p>
-          <div class="flex flex-wrap justify-start gap-14 mt-14">
+          <div
+            class="flex flex-col flex-wrap justify-start md:flex-row gap-14 mt-14"
+          >
             <div class="vector-link">
               <div class="flex items-center gap-3 group">
                 <div

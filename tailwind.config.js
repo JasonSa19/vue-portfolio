@@ -13,6 +13,7 @@ module.exports = {
         headline: "110%",
       },
       borderRadius: {
+        "2xl": "20px",
         "3xl": "40px",
         full: "999px",
       },
@@ -20,6 +21,7 @@ module.exports = {
         blue: "#0761E9",
         grey: "#272830",
         lightgrey: "#707070",
+        teasergrey: "#4C4E5D",
       },
       fontFamily: {
         headline: ['"Raleway"', "serif"],
