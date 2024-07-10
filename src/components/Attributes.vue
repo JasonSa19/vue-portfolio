@@ -15,7 +15,7 @@ import AttributeTeaser from "../components/modules/AttributeTeaser.vue";
         </div>
       </div>
     </div>
-    <div class="container flex flex-row justify-between mt-20 gap-14">
+    <div class="container flex flex-row flex-wrap justify-between mt-20">
       <AttributeTeaser
         headlineText="Qualität"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
