@@ -1,5 +1,6 @@
 <script setup>
 import subLine from "../components/modules/subLine.vue";
+import AreaTeaser from "../components/modules/AreaTeaser.vue";
 </script>
 
 <template>
@@ -13,6 +14,20 @@ import subLine from "../components/modules/subLine.vue";
           </h2>
         </div>
       </div>
+    </div>
+    <div class="container flex flex-row justify-between">
+      <AreaTeaser
+        headlineText="Layouts und Webdesigns"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+      />
+      <AreaTeaser
+        headlineText="Umsetzungen von Websites"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+      />
+      <AreaTeaser
+        headlineText="Wartung von bestehenden Websites"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+      />
     </div>
   </section>
 </template>
