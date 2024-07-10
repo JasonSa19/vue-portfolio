@@ -1,9 +1,13 @@
 <script setup>
 const props = defineProps({
-  sublineText: { type: String },
+  headlineText: { type: String },
+  flowText: { type: String },
 });
 </script>
 
 <template>
-  <div class="rounded-2xl bg-teasergrey"></div>
+  <div class="py-12 pr-12 rounded-2xl pl-11 bg-teasergrey">
+    <h3 class="mb-2 font-bold">{{ headlineText }}</h3>
+    <span>{{ flowText }}</span>
+  </div>
 </template>

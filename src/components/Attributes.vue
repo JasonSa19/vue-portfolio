@@ -1,12 +1,6 @@
 <script setup>
-import subLine from "./modules/subLine.vue";
-import birthday from "./svg/birthday.vue";
-import location from "./svg/location.vue";
-import education from "./svg/education.vue";
-import job from "./svg/job.vue";
-
-const aboutText =
-  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. nvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+import subLine from "../components/modules/subLine.vue";
+import AttributeTeaser from "../components/modules/AttributeTeaser.vue";
 </script>
 
 <template>
@@ -20,6 +14,24 @@ const aboutText =
           </h2>
         </div>
       </div>
+    </div>
+    <div class="container flex flex-row justify-between mt-20 gap-14">
+      <AttributeTeaser
+        headlineText="Qualität"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+      />
+      <AttributeTeaser
+        headlineText="Vertrauen"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+      />
+      <AttributeTeaser
+        headlineText="Präzision"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+      />
+      <AttributeTeaser
+        headlineText="Optisches Auge"
+        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+      />
     </div>
   </section>
 </template>
