@@ -24,7 +24,7 @@ const mainText =
         <div class="relative ml-auto image-container h-72 w-72 xl:h-96 xl:w-96">
           <img
             class="absolute object-cover w-full h-full rounded-full"
-            src="./../assets/img/portrait_Jason_Sauerwald.jpg"
+            src="./../assets/img/portrait_Jason_Sauerwald.webp"
           />
         </div>
       </div>

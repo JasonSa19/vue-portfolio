@@ -15,16 +15,19 @@ import AreaTeaser from "../components/modules/AreaTeaser.vue";
         </div>
       </div>
     </div>
-    <div class="container flex flex-row justify-between">
+    <div class="container flex flex-row justify-between mt-20">
       <AreaTeaser
+        imageLink="/src/assets/img/layouts.webp"
         headlineText="Layouts und Webdesigns"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
       <AreaTeaser
+        imageLink="/src/assets/img/umsetzung.webp"
         headlineText="Umsetzungen von Websites"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
       <AreaTeaser
+        imageLink="/src/assets/img/wartung.webp"
         headlineText="Wartung von bestehenden Websites"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
