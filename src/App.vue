@@ -3,6 +3,7 @@ import Header from "./components/Header.vue";
 import Intro from "./components/Intro.vue";
 import About from "./components/About.vue";
 import Attributes from "./components/Attributes.vue";
+import Areas from "./components/Areas.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Attributes from "./components/Attributes.vue";
   <Intro />
   <About />
   <Attributes />
+  <Areas />
 </template>
 
 <style lang="scss">
