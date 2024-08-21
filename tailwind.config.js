@@ -9,6 +9,9 @@ module.exports = {
     },
 
     extend: {
+      transitionDuration: {
+        DEFAULT: "300ms",
+      },
       lineHeight: {
         headline: "110%",
       },
