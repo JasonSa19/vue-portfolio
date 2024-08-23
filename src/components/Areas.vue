@@ -14,7 +14,7 @@ const svgDev = `
 </script>
 
 <template>
-  <section class="mb-32 xl:mb-96 anim">
+  <section class="mb-32 xl:mb-96 anim areas">
     <subLine sublineText="Tätigkeit" />
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
@@ -26,7 +26,7 @@ const svgDev = `
       </div>
     </div>
     <div
-      class="container flex flex-row justify-between gap-6 mt-20 xl:flex-nowrap xl:gap-16"
+      class="container flex flex-col justify-between gap-12 mt-20 md:gap-6 md:flex-row xl:flex-nowrap xl:gap-16"
     >
       <AreaTeaser
         :svgContent="svgWebdesign"
