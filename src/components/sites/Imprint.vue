@@ -1,11 +1,29 @@
 <script setup>
 import Header from "../Header.vue";
 import Footer from "../Footer.vue";
+import arrow from "../svg/arrow.vue";
 </script>
 
 <template>
   <Header />
   <div class="container mx-auto my-24">
+    <router-link to="/" class="fixed left-14 bottom-14">
+      <div
+        class="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all rounded-full bg-blue hover:bg-white group"
+      >
+        <span
+          class="absolute bg-blue inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"
+        ></span>
+        <span
+          class="relative flex items-center w-full gap-4 text-left text-white transition-colors duration-200 ease-in-out rounded-full group-hover:text-blue group-hover:bg-white"
+        >
+          <arrow
+            class="w-6 transition-all rotate-180 h-7 fill-white group-hover:ml-1 group-hover:fill-blue"
+          ></arrow>
+          Zurück zur Startseite
+        </span>
+      </div>
+    </router-link>
     <h1 class="mb-10 text-2xl font-bold">Impressum</h1>
 
     <div class="mb-6">
