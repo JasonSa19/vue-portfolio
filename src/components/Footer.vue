@@ -17,7 +17,7 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
   <footer
     class="container flex flex-col justify-between gap-8 mb-20 sm:gap-0 sm:flex-row anim"
   >
-    <a target="_blank">Impressum</a>
+    <router-link to="/impressum">Impressum</router-link>
     <p>© {{ new Date().getFullYear() }} - Jason Sauerwald</p>
     <div class="flex gap-5">
       <!-- Mailto link -->

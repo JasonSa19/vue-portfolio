@@ -1,19 +1,9 @@
 <script setup>
-import Header from "./components/Header.vue";
-import Intro from "./components/Intro.vue";
-import About from "./components/About.vue";
-import Attributes from "./components/Attributes.vue";
-import Areas from "./components/Areas.vue";
-import Footer from "./components/Footer.vue";
+import { useRouter } from "vue-router";
 </script>
 
 <template>
-  <Header />
-  <Intro />
-  <About />
-  <Attributes />
-  <Areas />
-  <Footer />
+  <router-view></router-view>
 </template>
 
 <style lang="scss">

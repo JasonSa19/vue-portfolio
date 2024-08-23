@@ -17,6 +17,9 @@ dependencies:
   vue-meta:
     specifier: 3.0.0-alpha.2
     version: 3.0.0-alpha.2(@vue/server-renderer@3.4.21)(vue@3.4.21)
+  vue-router:
+    specifier: ^4.0.13
+    version: 4.0.13(vue@3.4.21)
 
 devDependencies:
   '@vitejs/plugin-vue':
@@ -187,6 +190,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.4.21
       '@vue/shared': 3.4.21
+
+  /@vue/devtools-api@6.6.3:
+    resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
+    dev: false
 
   /@vue/reactivity@3.4.21:
     resolution: {integrity: sha512-UhenImdc0L0/4ahGCyEzc/pZNwVgcglGy9HVzJ1Bq2Mm9qXOpP8RyNTjookw/gOCUlXSEtuZ2fUg5nrHcoqJcw==}
@@ -1164,6 +1171,15 @@ packages:
       vue: ^3.0.0
     dependencies:
       '@vue/server-renderer': 3.4.21(vue@3.4.21)
+      vue: 3.4.21
+    dev: false
+
+  /vue-router@4.0.13(vue@3.4.21):
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.6.3
       vue: 3.4.21
     dev: false
 
