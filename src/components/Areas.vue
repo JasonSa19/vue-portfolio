@@ -42,7 +42,7 @@ const svgDev = `
       />
       <AreaTeaser
         :svgContent="svgMaintenance"
-        imageLink="require('@/assets/img/wartung.webp')"
+        imageLink="./../assets/img/wartung.webp"
         headlineText="Wartung von<br>bestehenden Websites"
         flowText="Als Junior-Webentwickler übernehme ich die Wartung bestehender Websites, insbesondere von WordPress-basierten Projekten. Ich sorge dafür, dass alle Systeme aktuell und sicher bleiben, und behebe auftretende Probleme schnell und effizient. Mein Ziel ist es, eine reibungslose Funktionalität der Website zu gewährleisten, damit sie langfristig stabil und zuverlässig bleibt."
       />
