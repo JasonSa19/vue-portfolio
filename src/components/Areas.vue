@@ -30,19 +30,19 @@ const svgDev = `
     >
       <AreaTeaser
         :svgContent="svgWebdesign"
-        imageLink="/assets/img/layouts.webp"
+        imageLink="require('@/assets/img/layouts.webp')"
         headlineText="Layouts und<br>Webdesigns"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
       <AreaTeaser
         :svgContent="svgDev"
-        imageLink="/assets/img/umsetzung.webp"
+        imageLink="require('@/assets/img/umsetzung.webp')"
         headlineText="Umsetzungen<br>von Websites"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
       <AreaTeaser
         :svgContent="svgMaintenance"
-        imageLink="/assets/img/wartung.webp"
+        imageLink="require('@/assets/img/wartung.webp')"
         headlineText="Wartung von<br>bestehenden Websites"
         flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
       />
