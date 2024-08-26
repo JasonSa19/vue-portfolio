@@ -21,16 +21,29 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
     <p>© {{ new Date().getFullYear() }} - Jason Sauerwald</p>
     <div class="flex gap-5">
       <!-- Mailto link -->
-      <a target="_blank" :href="`mailto:${mailAddress}`">
+      <a
+        class="relative hover:transition-all hover:bottom-1"
+        target="_blank"
+        :href="`mailto:${mailAddress}`"
+      >
         <mailbox class="w-8 h-8 fill-white"></mailbox>
       </a>
-      <a target="_blank" :href="linkGithub"
+      <a
+        class="relative hover:transition-all hover:bottom-1"
+        target="_blank"
+        :href="linkGithub"
         ><github class="w-8 h-8"></github
       ></a>
-      <a target="_blank" :href="linkInstagram"
+      <a
+        class="relative hover:transition-all hover:bottom-1"
+        target="_blank"
+        :href="linkInstagram"
         ><instagram class="w-8 h-8 fill-white"></instagram
       ></a>
-      <a target="_blank" :href="linkLinkedin"
+      <a
+        class="relative hover:transition-all hover:bottom-1"
+        target="_blank"
+        :href="linkLinkedin"
         ><linkedin class="w-8 h-8 fill-white"></linkedin
       ></a>
     </div>
