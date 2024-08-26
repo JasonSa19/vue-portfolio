@@ -1,6 +1,4 @@
 <script setup>
-import { useRouter } from "vue-router";
-import { ref } from "vue";
 import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 // Define transition methods

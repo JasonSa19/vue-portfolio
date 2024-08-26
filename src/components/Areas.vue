@@ -32,19 +32,19 @@ const svgDev = `
         :svgContent="svgWebdesign"
         imageLink="require('@/assets/img/layouts.webp')"
         headlineText="Layouts und<br>Webdesigns"
-        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+        flowText="Als Junior-Webentwickler konzentriere ich mich auf die Erstellung benutzerfreundlicher und ansprechender Webdesigns. Mit Adobe XD gestalte ich klare, moderne Layouts und interaktive Prototypen, die frühzeitig einen realistischen Eindruck des Projekts vermitteln. Mein Ziel ist es, Designs zu schaffen, die sowohl ästhetisch ansprechend als auch funktional sind und die Anforderungen meiner Kunden optimal erfüllen."
       />
       <AreaTeaser
         :svgContent="svgDev"
         imageLink="require('@/assets/img/umsetzung.webp')"
         headlineText="Umsetzungen<br>von Websites"
-        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+        flowText="Als Junior-Webentwickler setze ich Websites eigenständig um, mit besonderem Fokus auf maßgeschneiderte WordPress-Themes. Dabei achte ich darauf, dass jede Website auf allen Geräten optimal funktioniert und den individuellen Anforderungen meiner Kunden entspricht. Mein Ziel ist es, leistungsstarke und benutzerfreundliche Webauftritte zu entwickeln, die sowohl technisch als auch optisch überzeugen."
       />
       <AreaTeaser
         :svgContent="svgMaintenance"
         imageLink="require('@/assets/img/wartung.webp')"
         headlineText="Wartung von<br>bestehenden Websites"
-        flowText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa"
+        flowText="Als Junior-Webentwickler übernehme ich die Wartung bestehender Websites, insbesondere von WordPress-basierten Projekten. Ich sorge dafür, dass alle Systeme aktuell und sicher bleiben, und behebe auftretende Probleme schnell und effizient. Mein Ziel ist es, eine reibungslose Funktionalität der Website zu gewährleisten, damit sie langfristig stabil und zuverlässig bleibt."
       />
     </div>
   </section>

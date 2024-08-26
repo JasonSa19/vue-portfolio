@@ -29,46 +29,30 @@ import arrow from "../svg/arrow.vue";
     <div class="mb-6">
       <h2>Angaben gemäß § 5 TMG:</h2>
       <p>
-        Max Mustermann<br />
-        Musterstraße 1<br />
+        Jason Sauerwald<br />
+        Am Hellenteich 28<br />
+        59929 Brilon<br />
         Deutschland
       </p>
     </div>
 
     <div class="mb-6">
       <strong>Vertreten durch:</strong>
-      <p>Max Mustermann</p>
+      <p>Jason Sauerwald</p>
     </div>
 
     <div class="mb-6">
       <strong>Kontakt:</strong>
-      <p>Telefon: +49 123 456789</p>
-      <p>E-Mail: info@musterwebsite.de</p>
+      <p>Telefon: +49 152 31900730</p>
+      <p>E-Mail: jason@sauerwald.info</p>
     </div>
 
-    <div class="mb-6">
-      <strong>Registereintrag:</strong>
-      <p>
-        Eintragung im Handelsregister.<br />
-        Registergericht: Amtsgericht Musterstadt<br />
-        Registernummer: HRB 12345
-      </p>
-    </div>
-
-    <div class="mb-6">
-      <strong>Umsatzsteuer-ID:</strong>
-
-      <p>
-        Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
-        DE123456789
-      </p>
-    </div>
     <div class="mb-6">
       <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
       <p>
-        Max Mustermann<br />
-        Musterstraße 1<br />
-        12345 Musterstadt<br />
+        Jason Sauerwald<br />
+        Am Hellenteich 28<br />
+        59929 Brilon<br />
         Deutschland
       </p>
     </div>
