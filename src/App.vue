@@ -11,13 +11,17 @@ const enter = (el, done) => {
   el.offsetHeight; // Trigger reflow
   el.style.transition = "opacity 0.5s ease";
   el.style.opacity = 1;
-  done(); // Call done when transition is complete
+  el.addEventListener("transitionend", () => {
+    done(); // Call done when transition is complete
+  });
 };
 
 const leave = (el, done) => {
   el.style.transition = "opacity 0.5s ease";
   el.style.opacity = 0;
-  done(); // Call done when transition is complete
+  el.addEventListener("transitionend", () => {
+    done(); // Call done when transition is complete
+  });
 };
 </script>
 
