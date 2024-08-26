@@ -1,7 +1,7 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { ref } from "vue";
-import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 // Define transition methods
 // const beforeEnter = (el) => {
@@ -31,7 +31,7 @@ import { Analytics } from "@vercel/analytics/react";
   >
     <router-view></router-view>
   </transition>
-  <Analytics />
+  <SpeedInsights />
 </template>
 
 <style lang="scss">
