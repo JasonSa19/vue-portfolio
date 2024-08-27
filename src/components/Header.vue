@@ -18,7 +18,7 @@ const toggleHeader = () => {
 </script>
 
 <template>
-  <header class="relative z-10 font-light anim mt-11">
+  <header class="relative z-10 font-light mt-11">
     <div
       class="container flex items-center mx-auto header-inner"
       :class="{ open: isHeaderOpen }"
