@@ -28,25 +28,36 @@ document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("theme-toggle");
   const htmlElement = document.documentElement;
 
-  // Check for existing dark mode preference
+  // Function to update the theme
+  const updateTheme = () => {
+    if (localStorage.getItem("theme") === "dark") {
+      htmlElement.classList.add("dark");
+    } else {
+      htmlElement.classList.remove("dark");
+    }
+  };
+
+  // Check for existing dark mode preference on page load
   if (
     localStorage.getItem("theme") === "dark" ||
     (!localStorage.getItem("theme") &&
       window.matchMedia("(prefers-color-scheme: dark)").matches)
   ) {
-    htmlElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+    updateTheme();
   } else {
-    htmlElement.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+    updateTheme();
   }
 
   // Toggle dark mode on button click
   toggleButton.addEventListener("click", () => {
-    htmlElement.classList.toggle("dark");
     if (htmlElement.classList.contains("dark")) {
-      localStorage.setItem("theme", "dark");
-    } else {
       localStorage.setItem("theme", "light");
+    } else {
+      localStorage.setItem("theme", "dark");
     }
+    updateTheme();
   });
 });
 
