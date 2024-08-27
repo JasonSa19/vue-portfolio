@@ -28,24 +28,39 @@ const svgDev = `
     <div
       class="container flex flex-col justify-between gap-12 mt-20 md:gap-6 md:flex-row xl:flex-nowrap xl:gap-16"
     >
-      <AreaTeaser
-        :svgContent="svgWebdesign"
-        :imageLink="'assets/img/layouts.webp'"
-        headlineText="Layouts und<br>Webdesigns"
-        flowText="Als Junior-Webentwickler konzentriere ich mich auf die Erstellung benutzerfreundlicher und ansprechender Webdesigns. Mit Adobe XD gestalte ich klare, moderne Layouts und interaktive Prototypen, die frühzeitig einen realistischen Eindruck des Projekts vermitteln. Mein Ziel ist es, Designs zu schaffen, die sowohl ästhetisch ansprechend als auch funktional sind und die Anforderungen meiner Kunden optimal erfüllen."
-      />
-      <AreaTeaser
-        :svgContent="svgDev"
-        :imageLink="'assets/img/umsetzung.webp'"
-        headlineText="Umsetzungen<br>von Websites"
-        flowText="Als Junior-Webentwickler setze ich Websites eigenständig um, mit besonderem Fokus auf maßgeschneiderte WordPress-Themes. Dabei achte ich darauf, dass jede Website auf allen Geräten optimal funktioniert und den individuellen Anforderungen meiner Kunden entspricht. Mein Ziel ist es, leistungsstarke und benutzerfreundliche Webauftritte zu entwickeln, die sowohl technisch als auch optisch überzeugen."
-      />
-      <AreaTeaser
-        :svgContent="svgMaintenance"
-        :imageLink="'assets/img/wartung.webp'"
-        headlineText="Wartung von<br>bestehenden Websites"
-        flowText="Als Junior-Webentwickler übernehme ich die Wartung bestehender Websites, insbesondere von WordPress-basierten Projekten. Ich sorge dafür, dass alle Systeme aktuell und sicher bleiben, und behebe auftretende Probleme schnell und effizient. Mein Ziel ist es, eine reibungslose Funktionalität der Website zu gewährleisten, damit sie langfristig stabil und zuverlässig bleibt."
-      />
+      <div class="relative rounded-2xl">
+        <AreaTeaser
+          :svgContent="svgWebdesign"
+          headlineText="Layouts und<br>Webdesigns"
+          flowText="Als Junior-Webentwickler konzentriere ich mich auf die Erstellung benutzerfreundlicher und ansprechender Webdesigns. Mit Adobe XD gestalte ich klare, moderne Layouts und interaktive Prototypen, die frühzeitig einen realistischen Eindruck des Projekts vermitteln. Mein Ziel ist es, Designs zu schaffen, die sowohl ästhetisch ansprechend als auch funktional sind und die Anforderungen meiner Kunden optimal erfüllen."
+        />
+        <img
+          class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
+          src="./../assets/img/layouts.webp"
+        />
+      </div>
+      <div class="relative rounded-2xl">
+        <AreaTeaser
+          :svgContent="svgDev"
+          headlineText="Umsetzungen<br>von Websites"
+          flowText="Als Junior-Webentwickler setze ich Websites eigenständig um, mit besonderem Fokus auf maßgeschneiderte WordPress-Themes. Dabei achte ich darauf, dass jede Website auf allen Geräten optimal funktioniert und den individuellen Anforderungen meiner Kunden entspricht. Mein Ziel ist es, leistungsstarke und benutzerfreundliche Webauftritte zu entwickeln, die sowohl technisch als auch optisch überzeugen."
+        />
+        <img
+          class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
+          src="./../assets/img/umsetzung.webp"
+        />
+      </div>
+      <div class="relative rounded-2xl">
+        <AreaTeaser
+          :svgContent="svgMaintenance"
+          headlineText="Wartung von<br>bestehenden Websites"
+          flowText="Als Junior-Webentwickler übernehme ich die Wartung bestehender Websites, insbesondere von WordPress-basierten Projekten. Ich sorge dafür, dass alle Systeme aktuell und sicher bleiben, und behebe auftretende Probleme schnell und effizient. Mein Ziel ist es, eine reibungslose Funktionalität der Website zu gewährleisten, damit sie langfristig stabil und zuverlässig bleibt."
+        />
+        <img
+          class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
+          src="./../assets/img/wartung.webp"
+        />
+      </div>
     </div>
   </section>
 </template>
