@@ -22,8 +22,8 @@
           >
         </li>
         <li>
-          <a class="transition-all duration-200 hover:text-blue" href="#skills"
-            >Skills</a
+          <a class="transition-all duration-200 hover:text-blue" href="#areas"
+            >Arbeitsgebiete</a
           >
         </li>
       </ul>
