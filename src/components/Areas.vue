@@ -35,6 +35,7 @@ const svgDev = `
           flowText="Als Junior-Webentwickler konzentriere ich mich auf die Erstellung benutzerfreundlicher und ansprechender Webdesigns. Mit Adobe XD gestalte ich klare, moderne Layouts und interaktive Prototypen, die frühzeitig einen realistischen Eindruck des Projekts vermitteln. Mein Ziel ist es, Designs zu schaffen, die sowohl ästhetisch ansprechend als auch funktional sind und die Anforderungen meiner Kunden optimal erfüllen."
         />
         <img
+          alt="Layouts Symbolbild"
           class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
           src="./../assets/img/layouts.webp"
         />
@@ -46,6 +47,7 @@ const svgDev = `
           flowText="Als Junior-Webentwickler setze ich Websites eigenständig um, mit besonderem Fokus auf maßgeschneiderte WordPress-Themes. Dabei achte ich darauf, dass jede Website auf allen Geräten optimal funktioniert und den individuellen Anforderungen meiner Kunden entspricht. Mein Ziel ist es, leistungsstarke und benutzerfreundliche Webauftritte zu entwickeln, die sowohl technisch als auch optisch überzeugen."
         />
         <img
+          alt="Umsetzung Symbolbild"
           class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
           src="./../assets/img/umsetzung.webp"
         />
@@ -58,6 +60,7 @@ const svgDev = `
         />
         <img
           class="absolute top-0 bottom-0 left-0 right-0 w-full h-full rounded-2xl"
+          alt="Wartung von Websites Symbolbild"
           src="./../assets/img/wartung.webp"
         />
       </div>
