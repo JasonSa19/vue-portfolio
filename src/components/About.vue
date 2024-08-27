@@ -29,7 +29,7 @@ const age = computed(() => {
 </script>
 
 <template>
-  <section id="info" class="mb-32 xl:mb-96 anim">
+  <section class="mb-32 xl:mb-96 anim">
     <subLine sublineText="Information" />
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
