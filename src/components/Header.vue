@@ -9,7 +9,7 @@ const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");
 const gitHub = ref("https://github.com/JasonSa19/");
 const instaGram = ref("https://www.instagram.com/jason_sa_/");
 
-const resume = ref("#");
+const resume = ref("./../src/assets/docs/Lebenslauf.pdf");
 const isHeaderOpen = ref(false);
 
 const toggleHeader = () => {
@@ -51,6 +51,7 @@ const toggleHeader = () => {
         >
       </span>
       <customBtn
+        taget="_blank"
         :link="resume"
         class="justify-end flex-1 hidden md:flex"
         buttonText="Lebenslauf"
