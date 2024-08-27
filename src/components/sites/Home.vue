@@ -9,9 +9,9 @@ import Footer from "../Footer.vue";
 
 <template>
   <Header />
-  <Intro />
-  <About />
-  <Attributes />
-  <Areas />
+  <Intro id="start" />
+  <About id="info" />
+  <Attributes id="merkmale" />
+  <Areas id="areas" />
   <Footer />
 </template>
