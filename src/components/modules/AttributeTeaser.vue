@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="h-full p-4 basis-full sm:basis-2/4 xl:basis-1/4">
+  <div class="h-full p-4 text-white basis-full sm:basis-2/4 xl:basis-1/4">
     <div
       class="h-full min-h-[19rem] py-12 pr-12 rounded-2xl pl-11 bg-teasergrey"
     >
