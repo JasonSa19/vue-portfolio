@@ -8,7 +8,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="transition-all basis-full sm:basis-2/4 xl:basis-1/3 group">
+  <div
+    class="transition-all max-h-[680px] overflow-hidden basis-full sm:basis-2/4 xl:basis-1/3 group"
+  >
     <div
       class="relative pb-12 group-hover:bg-none group-hover:after:opacity-100 after:transition-all xl:pt-40 pt-12 pr-12 xl:min-h-[680px] bg-center bg-no-repeat bg-cover rounded-2xl after:rounded-2xl pl-11 after:absolute after:top-0 after:right-0 after:z-10 after:left-0 after:bottom-0 after:h-full after:w-full after:bg-teasergrey after:opacity-55"
       :style="{ backgroundImage: 'url(' + imageLink + ')' }"
@@ -25,7 +27,7 @@ const props = defineProps({
           v-html="headlineText"
         ></h3>
         <div
-          class="z-20 invisible h-0 mt-6 text-left opacity-0 group-hover:visible group-hover:opacity-100 group-hover:h-full"
+          class="z-20 invisible h-0 mt-6 text-left opacity-0 rounded-2xl group-hover:visible group-hover:opacity-100 group-hover:h-full"
         >
           {{ flowText }}
         </div>
