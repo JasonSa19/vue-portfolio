@@ -5,7 +5,7 @@
     <div class="ml-4 mr-auto nav-inner lg:ml-auto">
       <ul class="flex flex-col justify-center gap-16 lg:flex-row xl:text-md">
         <li>
-          <a class="transition-all duration-200 hover:text-blue" href="/"
+          <a class="transition-all duration-200 hover:text-blue" href="#start"
             >Start</a
           >
         </li>

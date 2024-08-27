@@ -10,13 +10,20 @@ const props = defineProps({
 <template>
   <div class="btn-wrap">
     <a
-      class="icon-btn group inline-flex cursor-pointer items-center gap-2 rounded-3xl bg-white px-7 py-3 text-base text-blue transition-all hover:bg-blue hover:text-white"
       :href="link"
+      class="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all rounded-full bg-blue hover:bg-white group"
     >
-      <pdfFile
-        class="h-7 w-6 fill-blue transition-all group-hover:fill-white"
-      ></pdfFile>
-      {{ buttonText }}
+      <span
+        class="absolute bg-blue inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"
+      ></span>
+      <span
+        class="relative flex items-center w-full gap-4 text-left text-white transition-colors duration-200 ease-in-out rounded-full group-hover:text-blue group-hover:bg-white"
+      >
+        <pdfFile
+          class="w-6 transition-all h-7 fill-white group-hover:fill-blue"
+        ></pdfFile>
+        {{ buttonText }}
+      </span>
     </a>
   </div>
 </template>

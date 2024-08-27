@@ -9,12 +9,12 @@ const props = defineProps({
 
 <template>
   <div class="vector-link">
-    <a class="group flex items-center gap-3" :href="link">
+    <a class="flex items-center gap-3 group" :href="link">
       <div
-        class="svg-holder flex h-12 w-12 items-center justify-center rounded-full bg-blue transition-all group-hover:bg-white"
+        class="flex items-center justify-center w-12 h-12 transition-all rounded-full svg-holder bg-blue group-hover:bg-white"
       >
         <mail
-          class="h-6 w-6 fill-white transition-all group-hover:fill-blue"
+          class="w-6 h-6 transition-all fill-white group-hover:fill-blue"
         ></mail>
       </div>
       {{ buttonText }}
