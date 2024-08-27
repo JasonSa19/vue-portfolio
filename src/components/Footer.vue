@@ -17,31 +17,33 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
   <footer
     class="container flex flex-col justify-between gap-8 mb-20 sm:gap-0 sm:flex-row anim"
   >
-    <router-link to="/impressum">Impressum</router-link>
+    <router-link class="transition-colors hover:text-blue" to="/impressum"
+      >Impressum</router-link
+    >
     <p>© {{ new Date().getFullYear() }} - Jason Sauerwald</p>
     <div class="flex gap-5">
       <!-- Mailto link -->
       <a
-        class="relative block transition-all hover:-translate-y-1"
+        class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="`mailto:${mailAddress}`"
       >
         <mailbox class="w-8 h-8 transition-all fill-white"></mailbox>
       </a>
       <a
-        class="relative block transition-all hover:-translate-y-1"
+        class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="linkGithub"
         ><github class="w-8 h-8"></github
       ></a>
       <a
-        class="relative block transition-all hover:-translate-y-1"
+        class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="linkInstagram"
         ><instagram class="w-8 h-8 fill-white"></instagram
       ></a>
       <a
-        class="relative block transition-all hover:-translate-y-1"
+        class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="linkLinkedin"
         ><linkedin class="w-8 h-8 fill-white"></linkedin
