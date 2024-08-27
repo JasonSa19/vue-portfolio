@@ -30,19 +30,19 @@ const svgDev = `
     >
       <AreaTeaser
         :svgContent="svgWebdesign"
-        :imageLink="'src/assets/img/layouts.webp'"
+        :imageLink="'assets/img/layouts.webp'"
         headlineText="Layouts und<br>Webdesigns"
         flowText="Als Junior-Webentwickler konzentriere ich mich auf die Erstellung benutzerfreundlicher und ansprechender Webdesigns. Mit Adobe XD gestalte ich klare, moderne Layouts und interaktive Prototypen, die frühzeitig einen realistischen Eindruck des Projekts vermitteln. Mein Ziel ist es, Designs zu schaffen, die sowohl ästhetisch ansprechend als auch funktional sind und die Anforderungen meiner Kunden optimal erfüllen."
       />
       <AreaTeaser
         :svgContent="svgDev"
-        :imageLink="'src/assets/img/umsetzung.webp'"
+        :imageLink="'assets/img/umsetzung.webp'"
         headlineText="Umsetzungen<br>von Websites"
         flowText="Als Junior-Webentwickler setze ich Websites eigenständig um, mit besonderem Fokus auf maßgeschneiderte WordPress-Themes. Dabei achte ich darauf, dass jede Website auf allen Geräten optimal funktioniert und den individuellen Anforderungen meiner Kunden entspricht. Mein Ziel ist es, leistungsstarke und benutzerfreundliche Webauftritte zu entwickeln, die sowohl technisch als auch optisch überzeugen."
       />
       <AreaTeaser
         :svgContent="svgMaintenance"
-        :imageLink="'src/assets/img/wartung.webp'"
+        :imageLink="'assets/img/wartung.webp'"
         headlineText="Wartung von<br>bestehenden Websites"
         flowText="Als Junior-Webentwickler übernehme ich die Wartung bestehender Websites, insbesondere von WordPress-basierten Projekten. Ich sorge dafür, dass alle Systeme aktuell und sicher bleiben, und behebe auftretende Probleme schnell und effizient. Mein Ziel ist es, eine reibungslose Funktionalität der Website zu gewährleisten, damit sie langfristig stabil und zuverlässig bleibt."
       />
