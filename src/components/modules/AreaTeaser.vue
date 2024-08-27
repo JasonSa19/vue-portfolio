@@ -27,7 +27,7 @@ const props = defineProps({
           v-html="headlineText"
         ></h3>
         <div
-          class="z-20 invisible h-0 mt-6 text-left opacity-0 rounded-2xl group-hover:visible group-hover:opacity-100 group-hover:h-full"
+          class="z-20 mt-6 text-left md:h-0 md:invisible md:opacity-0 rounded-2xl md:group-hover:visible md:group-hover:opacity-100 md:group-hover:h-full"
         >
           {{ flowText }}
         </div>
