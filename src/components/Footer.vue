@@ -22,26 +22,26 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
     <div class="flex gap-5">
       <!-- Mailto link -->
       <a
-        class="relative hover:transition-all hover:bottom-1"
+        class="relative block transition-all hover:-translate-y-1"
         target="_blank"
         :href="`mailto:${mailAddress}`"
       >
-        <mailbox class="w-8 h-8 fill-white"></mailbox>
+        <mailbox class="w-8 h-8 transition-all fill-white"></mailbox>
       </a>
       <a
-        class="relative hover:transition-all hover:bottom-1"
+        class="relative block transition-all hover:-translate-y-1"
         target="_blank"
         :href="linkGithub"
         ><github class="w-8 h-8"></github
       ></a>
       <a
-        class="relative hover:transition-all hover:bottom-1"
+        class="relative block transition-all hover:-translate-y-1"
         target="_blank"
         :href="linkInstagram"
         ><instagram class="w-8 h-8 fill-white"></instagram
       ></a>
       <a
-        class="relative hover:transition-all hover:bottom-1"
+        class="relative block transition-all hover:-translate-y-1"
         target="_blank"
         :href="linkLinkedin"
         ><linkedin class="w-8 h-8 fill-white"></linkedin
