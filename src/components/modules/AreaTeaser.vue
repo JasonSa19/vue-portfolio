@@ -16,7 +16,7 @@ const props = defineProps({
       :style="{ backgroundImage: 'url(' + imageLink + ')' }"
     >
       <div
-        class="flex flex-col items-center justify-center text-center transition-all group-hover:-mt-20"
+        class="flex flex-col items-center justify-center text-center transition-all rounded-2xl group-hover:-mt-20"
       >
         <div
           class="z-20 flex items-center justify-center w-24 h-24 rounded-full xl:w-44 xl:h-44 bg-blue"
