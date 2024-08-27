@@ -56,6 +56,7 @@ const toggleHeader = () => {
         buttonText="Lebenslauf"
       />
       <button
+        aria-label="menü"
         @click="toggleHeader"
         :class="{ open: isHeaderOpen }"
         class="relative z-20 flex flex-col justify-between h-6 ml-20 transition-all menu-toggle align-end group w-11"

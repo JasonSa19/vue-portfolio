@@ -22,6 +22,7 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
     <div class="flex gap-5">
       <!-- Mailto link -->
       <a
+        aria-label="E-Mail Adresse"
         class="relative hover:transition-all hover:bottom-1"
         target="_blank"
         :href="`mailto:${mailAddress}`"
@@ -29,18 +30,21 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
         <mailbox class="w-8 h-8 fill-white"></mailbox>
       </a>
       <a
+        aria-label="Link zum Github-Profil"
         class="relative hover:transition-all hover:bottom-1"
         target="_blank"
         :href="linkGithub"
         ><github class="w-8 h-8"></github
       ></a>
       <a
+        aria-label="Link zum Instagram-Profil"
         class="relative hover:transition-all hover:bottom-1"
         target="_blank"
         :href="linkInstagram"
         ><instagram class="w-8 h-8 fill-white"></instagram
       ></a>
       <a
+        aria-label="Link zum LinkedIn-Profil"
         class="relative hover:transition-all hover:bottom-1"
         target="_blank"
         :href="linkLinkedin"
