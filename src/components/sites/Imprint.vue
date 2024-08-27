@@ -6,8 +6,11 @@ import arrow from "../svg/arrow.vue";
 
 <template>
   <Header />
-  <div class="container mx-auto my-24">
-    <router-link to="/" class="fixed z-20 left-14 bottom-14">
+  <div class="container mx-auto my-16 md:my-24">
+    <router-link
+      to="/"
+      class="z-20 block mb-8 md:fixed md:left-14 md:bottom-14"
+    >
       <div
         class="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all rounded-full bg-blue hover:bg-white group"
       >
