@@ -51,7 +51,7 @@ const toggleHeader = () => {
         >
       </span>
       <customBtn
-        taget="_blank"
+        target="_blank"
         :link="resume"
         class="justify-end flex-1 hidden md:flex"
         buttonText="Lebenslauf"
