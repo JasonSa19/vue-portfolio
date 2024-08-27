@@ -3,7 +3,6 @@ import App from "./App.vue";
 import router from "./router/index.js"; // Import the router configuration
 import "./assets/scss/style.scss";
 
-// scroll-animation
 document.addEventListener("DOMContentLoaded", function () {
   const fadeUpElements = document.querySelectorAll(".anim");
 
