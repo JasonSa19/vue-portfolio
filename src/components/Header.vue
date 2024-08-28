@@ -3,7 +3,7 @@ import { ref } from "vue";
 import vectorLink from "./modules/vectorLink.vue";
 import customBtn from "./modules/customBtn.vue";
 import Nav from "./nav.vue";
-import modeSwitcher from "./modules/modeSwitcher.vue";
+// import modeSwitcher from "./modules/modeSwitcher.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
 const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");

@@ -17,7 +17,9 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
   <footer
     class="container flex flex-col justify-between gap-8 mb-20 sm:gap-0 sm:flex-row anim"
   >
-    <router-link class="transition-colors hover:text-blue" to="/impressum"
+    <router-link
+      class="transition-colors hover:text-blue"
+      to="/impressum/#imprint"
       >Impressum</router-link
     >
     <p>© {{ new Date().getFullYear() }} - Jason Sauerwald</p>
