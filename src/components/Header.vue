@@ -52,7 +52,7 @@ const toggleHeader = () => {
         >
       </span>
       <div class="flex items-center justify-end flex-1 gap-8">
-        <modeSwitcher uniqueId="theme-toggle" />
+        <!-- <modeSwitcher uniqueId="theme-toggle" /> -->
         <customBtn
           target="_blank"
           :link="resume"
