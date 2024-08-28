@@ -3,6 +3,7 @@ import { ref } from "vue";
 import vectorLink from "./modules/vectorLink.vue";
 import customBtn from "./modules/customBtn.vue";
 import Nav from "./nav.vue";
+import modeSwitcher from "./modules/modeSwitcher.vue";
 
 const mailAddress = ref("jason@sauerwald.info");
 const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");
@@ -50,12 +51,15 @@ const toggleHeader = () => {
           >Instagram</a
         >
       </span>
-      <customBtn
-        target="_blank"
-        :link="resume"
-        class="justify-end flex-1 hidden md:flex"
-        buttonText="Lebenslauf"
-      />
+      <div class="flex items-center justify-end flex-1 gap-8">
+        <!-- <modeSwitcher uniqueId="theme-toggle" /> -->
+        <customBtn
+          target="_blank"
+          :link="resume"
+          class="hidden md:flex"
+          buttonText="Lebenslauf"
+        />
+      </div>
       <button
         aria-label="Menü"
         @click="toggleHeader"

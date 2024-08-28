@@ -15,7 +15,7 @@ const props = defineProps({
       class="relative pb-12 group-hover:bg-none group-hover:after:opacity-100 after:transition-all xl:pt-40 pt-12 pr-12 xl:min-h-[680px] rounded-2xl after:rounded-2xl pl-11 after:absolute after:top-0 after:right-0 after:z-10 after:left-0 after:bottom-0 after:h-full after:w-full after:bg-teasergrey after:opacity-55"
     >
       <div
-        class="flex flex-col items-center justify-center text-center transition-all rounded-2xl group-hover:-mt-20"
+        class="flex flex-col items-center justify-center text-center text-white transition-all rounded-2xl group-hover:-mt-20"
       >
         <div
           class="z-20 flex items-center justify-center w-24 h-24 rounded-full xl:w-44 xl:h-44 bg-blue"
@@ -26,7 +26,7 @@ const props = defineProps({
           v-html="headlineText"
         ></h3>
         <div
-          class="z-20 mt-6 text-left md:h-0 md:invisible md:opacity-0 rounded-2xl md:group-hover:visible md:group-hover:opacity-100 md:group-hover:h-full"
+          class="z-20 mt-6 text-left text-white md:h-0 md:invisible md:opacity-0 rounded-2xl md:group-hover:visible md:group-hover:opacity-100 md:group-hover:h-full"
         >
           {{ flowText }}
         </div>
