@@ -6,7 +6,7 @@ import arrow from "../svg/arrow.vue";
 
 <template>
   <Header />
-  <div class="container mx-auto my-16 md:my-24">
+  <div class="container mx-auto my-16 md:my-24" id="imprint">
     <router-link
       to="/"
       class="z-20 block mb-8 md:fixed md:left-14 md:bottom-14"
