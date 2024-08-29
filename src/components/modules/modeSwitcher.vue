@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import mode from "../svg/mode.vue";
 
 const props = defineProps({
@@ -11,10 +11,24 @@ const isDarkMode = ref(true); // Set initial value to true
 function toggleDarkMode() {
   isDarkMode.value = !isDarkMode.value;
   document.documentElement.classList.toggle("dark");
+  localStorage.setItem("darkMode", isDarkMode.value); // Save the selection in local storage
 }
 
-// Add the "dark" class to the document element by default
-document.documentElement.classList.add("dark");
+// Check if the user has previously selected a mode
+onMounted(() => {
+  const storedDarkMode = localStorage.getItem("darkMode");
+  if (storedDarkMode !== null) {
+    isDarkMode.value = storedDarkMode === "true";
+    if (isDarkMode.value) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  } else {
+    // Add the "dark" class to the document element by default
+    document.documentElement.classList.add("dark");
+  }
+});
 </script>
 
 <template>
