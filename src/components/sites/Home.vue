@@ -21,7 +21,7 @@ onMounted(() => {
       });
     },
     {
-      threshold: 0.3, // Trigger the animation when the element is 50% visible
+      threshold: 0.45, // Trigger the animation when the element is 50% visible
     }
   );
 
