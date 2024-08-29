@@ -1,11 +1,11 @@
 <script setup>
-import subLine from "../components/modules/subLine.vue";
+// import subLine from "../components/modules/subLine.vue";
 import AttributeTeaser from "../components/modules/AttributeTeaser.vue";
 </script>
 
 <template>
   <section class="mb-32 xl:mb-96 anim">
-    <subLine sublineText="Merkmale" />
+    <!-- <subLine sublineText="Merkmale" /> -->
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
         <div class="basis-5/12">
