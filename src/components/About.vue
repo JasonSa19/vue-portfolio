@@ -1,5 +1,5 @@
 <script setup>
-import subLine from "./modules/subLine.vue";
+// import subLine from "./modules/subLine.vue";
 import birthday from "./svg/birthday.vue";
 import location from "./svg/location.vue";
 import education from "./svg/education.vue";
@@ -30,7 +30,7 @@ const age = computed(() => {
 
 <template>
   <section class="mb-32 xl:mb-96 anim">
-    <subLine sublineText="Information" />
+    <!-- <subLine sublineText="Information" /> -->
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
         <div class="basis-3/12">
