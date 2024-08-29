@@ -3,6 +3,7 @@ module.exports = {
   corePlugins: {
     container: false,
   },
+  darkMode: "selector",
   theme: {
     boxShadow: {
       custom: "0px 0px 50px 16px rgba(0,0,0,0.14)",
