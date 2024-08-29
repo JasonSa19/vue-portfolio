@@ -10,7 +10,7 @@ const linkedIn = ref("https://www.linkedin.com/in/jasonsauerwald/");
 const gitHub = ref("https://github.com/JasonSa19/");
 const instaGram = ref("https://www.instagram.com/jason_sa_/");
 
-const resume = ref("./../assets/docs/Lebenslauf.pdf");
+const resume = ref(new URL("../assets/docs/Lebenslauf.pdf", import.meta.url));
 const isHeaderOpen = ref(false);
 
 const toggleHeader = () => {
