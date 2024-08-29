@@ -31,7 +31,9 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
         target="_blank"
         :href="`mailto:${mailAddress}`"
       >
-        <mailbox class="w-8 h-8 transition-all fill-white"></mailbox>
+        <mailbox
+          class="w-8 h-8 transition-all dark:fill-white fill-grey"
+        ></mailbox>
       </a>
       <a
         aria-label="Link zum Github-Profil"
@@ -45,14 +47,14 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
         class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="linkInstagram"
-        ><instagram class="w-8 h-8 fill-white"></instagram
+        ><instagram class="w-8 h-8 dark:fill-white fill-grey"></instagram
       ></a>
       <a
         aria-label="Link zum LinkedIn-Profil"
         class="relative block transition-transform hover:-translate-y-1"
         target="_blank"
         :href="linkLinkedin"
-        ><linkedin class="w-8 h-8 fill-white"></linkedin
+        ><linkedin class="w-8 h-8 dark:fill-white fill-grey"></linkedin
       ></a>
     </div>
   </footer>
