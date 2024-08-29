@@ -11,7 +11,18 @@ onMounted(() => {
   // Get all elements with the anim class
   const animElements = document.querySelectorAll(".anim");
 
-  // Create an IntersectionObserver instance
+  // Define a function to get the threshold based on screen size
+  function getThreshold() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 768) {
+      // adjust this value to your desired mobile screen width
+      return 0.1; // lower threshold for mobile devices
+    } else {
+      return 0.5; // default threshold for desktop devices
+    }
+  }
+
+  // Create an IntersectionObserver instance with dynamic threshold
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -21,9 +32,14 @@ onMounted(() => {
       });
     },
     {
-      threshold: 0.45, // Trigger the animation when the element is 50% visible
+      threshold: getThreshold(), // use the dynamic threshold
     }
   );
+
+  // Observe the anim elements
+  animElements.forEach((element) => {
+    observer.observe(element);
+  });
 
   // Observe each anim element
   animElements.forEach((element) => {
