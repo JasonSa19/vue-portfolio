@@ -11,14 +11,14 @@
         </li>
         <li>
           <a class="transition-all duration-200 hover:text-blue" href="#info"
-            >Information</a
+            >Über mich</a
           >
         </li>
         <li>
           <a
             class="transition-all duration-200 hover:text-blue"
             href="#merkmale"
-            >Merkmale</a
+            >Eigenschaften</a
           >
         </li>
         <li>
