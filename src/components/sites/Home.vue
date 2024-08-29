@@ -44,7 +44,7 @@ onMounted(() => {
 <style>
 .anim {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(40px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
