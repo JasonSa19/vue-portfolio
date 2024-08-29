@@ -20,11 +20,11 @@ document.documentElement.classList.add("dark");
 <template>
   <button
     :id="uniqueId"
-    class="flex items-center justify-center w-12 h-12 px-4 py-2 text-white transition-colors rounded-full group hover:bg-white bg-blue dark:bg-blue dark:text-white"
+    class="fixed z-10 flex items-center justify-center w-12 h-12 px-4 py-2 text-white transition-colors rounded-full md:bottom-auto md:right-auto md:relative bottom-4 right-4 group md:hover:bg-white bg-blue dark:bg-blue dark:text-white"
     @click="toggleDarkMode"
   >
     <mode
-      class="w-10 h-10 transition-colors fill-white group-hover:fill-blue"
+      class="w-10 h-10 transition-colors fill-white md:group-hover:fill-blue"
     />
   </button>
 </template>
