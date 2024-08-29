@@ -15,7 +15,7 @@ const linkInstagram = ref("https://www.instagram.com/jason_sa_/");
 
 <template>
   <footer
-    class="container flex flex-col justify-between gap-8 mb-20 sm:gap-0 sm:flex-row anim"
+    class="container flex flex-col justify-between gap-8 mb-20 sm:gap-0 sm:flex-row"
   >
     <router-link
       class="transition-colors hover:text-blue"
