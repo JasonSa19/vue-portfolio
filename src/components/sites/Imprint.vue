@@ -33,7 +33,6 @@ import arrow from "../svg/arrow.vue";
       <h2>Angaben gemäß § 5 TMG:</h2>
       <p>
         Jason Sauerwald<br />
-        Am Hellenteich 28<br />
         59929 Brilon<br />
         Deutschland
       </p>
@@ -54,7 +53,6 @@ import arrow from "../svg/arrow.vue";
       <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
       <p>
         Jason Sauerwald<br />
-        Am Hellenteich 28<br />
         59929 Brilon<br />
         Deutschland
       </p>
