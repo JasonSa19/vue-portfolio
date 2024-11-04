@@ -6,6 +6,7 @@ import About from "../About.vue";
 import Attributes from "../Attributes.vue";
 import Areas from "../Areas.vue";
 import Footer from "../Footer.vue";
+// import Slider from "../Slider.vue";
 
 onMounted(() => {
   // Get all elements with the anim class
@@ -33,7 +34,7 @@ onMounted(() => {
     },
     {
       threshold: getThreshold(), // use the dynamic threshold
-    }
+    },
   );
 
   // Observe the anim elements
@@ -54,6 +55,7 @@ onMounted(() => {
   <About class="anim" id="info" />
   <Attributes class="anim" id="merkmale" />
   <Areas class="anim" id="areas" />
+  <!-- <Slider class="anim" /> -->
   <Footer class="anim" />
 </template>
 
@@ -61,7 +63,9 @@ onMounted(() => {
 .anim {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
 }
 
 .anim.visible {
