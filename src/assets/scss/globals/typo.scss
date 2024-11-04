@@ -1,12 +1,14 @@
+@use "vars";
+
 h1,
 h2 {
-  font-family: $fontHeadline;
+  font-family: vars.$fontHeadline;
   font-weight: 500;
 }
 
 p,
 a {
-  font-family: $fontDefault;
+  font-family: vars.$fontDefault;
   font-size: 1.125rem;
   font-weight: 300;
   line-height: 160%;

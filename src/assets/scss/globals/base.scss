@@ -1,11 +1,13 @@
+@use "vars";
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: $fontDefault;
+  font-family: vars.$fontDefault;
 
   button {
-    color: $primary;
+    color: vars.$primary;
   }
 }

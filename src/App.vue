@@ -8,5 +8,5 @@ import { SpeedInsights } from "@vercel/speed-insights/vue";
 </template>
 
 <style lang="scss">
-@import "./assets/scss/style.scss";
+@use "./assets/scss/style.scss";
 </style>
