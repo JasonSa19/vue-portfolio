@@ -38,7 +38,6 @@ const logos = ref([
 </template>
 
 <style>
-/* CSS for the infinite scroll animation */
 .animate-infinite-scroll {
   animation: scroll 15s linear infinite;
 }
