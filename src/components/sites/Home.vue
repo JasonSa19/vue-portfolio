@@ -6,7 +6,7 @@ import About from "../About.vue";
 import Attributes from "../Attributes.vue";
 import Areas from "../Areas.vue";
 import Footer from "../Footer.vue";
-import Slider from "../Slider.vue";
+// import Slider from "../Slider.vue";
 
 onMounted(() => {
   // Get all elements with the anim class
@@ -55,7 +55,7 @@ onMounted(() => {
   <About class="anim" id="info" />
   <Attributes class="anim" id="merkmale" />
   <Areas class="anim" id="areas" />
-  <Slider class="anim" />
+  <!-- <Slider class="anim" /> -->
   <Footer class="anim" />
 </template>
 
