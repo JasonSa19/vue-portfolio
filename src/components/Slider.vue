@@ -28,8 +28,13 @@ const skills = ref([
       },
       {
         name: "Javascript",
-        progress: 50,
+        progress: 55,
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "Vue.js",
+        progress: 40,
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
       },
       {
         name: "React.js",
@@ -79,7 +84,8 @@ const skills = ref([
       {
         name: "Github / version-control",
         progress: 85,
-        icon: "https://cdn.simpleicons.org/github/ffffff",
+        icon: "https://cdn.simpleicons.org/github/000000",
+        darkIcon: "https://cdn.simpleicons.org/github/ffffff",
       },
     ],
   },
@@ -114,7 +120,9 @@ onMounted(() => {
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
         <div class="basis-5/12">
-          <h2 class="text-lg xl:text-2xl font-headline leading-headline">
+          <h2
+            class="text-lg xl:text-2xl font-headline leading-headline dark:text-white"
+          >
             Meine Skills
           </h2>
         </div>
@@ -126,7 +134,7 @@ onMounted(() => {
         :key="categoryIndex"
         class="flex-1 min-w-[300px] space-y-6"
       >
-        <h2 class="text-lg font-normal text-white">
+        <h2 class="text-lg font-normal dark:text-white">
           {{ category.category }}
         </h2>
 
@@ -143,7 +151,7 @@ onMounted(() => {
             />
 
             <div class="flex-1">
-              <div class="mb-1 text-sm text-white">{{ skill.name }}</div>
+              <div class="mb-1 text-sm dark:text-white">{{ skill.name }}</div>
               <div class="h-2 overflow-hidden bg-gray-700 rounded-full">
                 <div
                   class="w-0 h-full bg-blue-500 rounded-full progress-bar"
