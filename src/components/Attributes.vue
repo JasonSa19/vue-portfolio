@@ -4,7 +4,7 @@ import AttributeTeaser from "../components/modules/AttributeTeaser.vue";
 </script>
 
 <template>
-  <section class="mb-32 xl:mb-96">
+  <section class="mb-32 xl:mb-64">
     <div class="container">
       <div class="flex flex-col gap-6 xl:gap-14 md:flex-row">
         <div class="basis-5/12">
